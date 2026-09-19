@@ -1,7 +1,4 @@
-for n in range(1, 101):
-    count = 0
-    for i in range(1, 101):
-        if n % i == 0:
-            count += 1
-    if count == 2:
-        print(n)
+for i in range(1, 6):
+    for j in range(1, 6):
+        print("*", end=" ")
+    print()
